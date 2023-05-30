@@ -1,58 +1,38 @@
-header {
+header{
+    padding-top: 1%;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    width: auto;
+    height: 25%
+}
+.logo{
     display: flex;
-    justify-content: center;
-    font-family: "Bebas Neue", serif;
+    align-items: center;
+    padding-bottom: 10%;
+    padding-left: 15%;
 }
-header a{
-    font-size: 40px;
-
+.navlink{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
 }
-header img{
-    height: 160px;
-    width: 300px;
-}
-.navbar ul li a.active {
-    color: #FF4350;
-    text-underline-position: under;
-}
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-header .logo {
-    display: flex;
-    justify-content: flex-start;
-}
-
-header .menu {
-    display: flex;
-    flex-direction: row;
-    padding-right: 10%;
-}
-
-header .menu ul {
-    display: flex;
-    flex-direction: row;
-}
-
-header .menu ul li {
-    padding: 0 193px 0 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.navlink a{
     font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
 }
-
-header .menu a {
-    list-style: none;
-    text-underline: none;
-    color: white;
-}
-
-header .menu ul li a:hover {
+.navlink a:hover{
     color: #FF4350;
-    text-underline-position: under;
-    text-underline: white;
-
+}
+.navbutton{
+    color: white; 
+    text-decoration: none;
+    text-decoration-color: white;
+}
+.active{
+    color: #FF4350;
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-color: white;
 }

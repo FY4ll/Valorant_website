@@ -42,5 +42,8 @@ a, h1, p {
 .bouton .arrow {
     transform: scale(0.3);
 }
+.Welcome_container img{
+    width: 100%;
+}
 
 

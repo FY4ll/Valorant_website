@@ -1,8 +1,42 @@
-footer{
-    display:grid;
-    grid-template-columns: repeat(3,1fr);
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    position: relative;
 }
-footer img{
+
+footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background-color: #FF4350;
+}
+
+footer img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100px;
     height: 100px;
+}
+
+.social_links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+}
+
+.social_links img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Info_links {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    place-items: center;
 }

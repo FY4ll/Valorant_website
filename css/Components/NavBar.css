@@ -20,13 +20,13 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-   
+
 }
 .navlink a:hover{
     color: #FF4350;
 }
 .navbutton{
-    color: white; 
+    color: white;
     text-decoration: none;
     text-decoration-color: white;
 }

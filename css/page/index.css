@@ -1,4 +1,3 @@
-.main_grid{
-    display: grid;
-    grid-template-rows: 25% 75%;
+.Welcome_container img{
+    width: 100%;
 }

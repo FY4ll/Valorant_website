@@ -21,7 +21,7 @@ a, h1, p {
 }
 .text_box a{
     color: white;
-    font-size: 24px;
+    font-size: 28px;
     grid-row-start: 2;
     grid-row-end: 3;
 }

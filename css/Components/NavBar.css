@@ -33,6 +33,5 @@ header{
 .active{
     color: #FF4350;
     text-decoration: underline;
-    text-decoration-line: underline;
     text-decoration-color: white;
 }

@@ -22,7 +22,34 @@ footer img {
     width: 100px;
     height: 100px;
 }
+.Info_links {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    place-items: center;
+}
+.Info_links a{
+    color: #7e7e7e;
+    text-decoration: none;
+}
+.Github p {
+    color: white;
+    text-align: center;
+}
 
+.Github a {
+    color: #FF4350;
+    text-decoration: none;
+    text-align: center;
+}
+
+.Github img {
+    display: block;
+    margin: 0 auto;
+}
+
+.Info_links a:hover{
+    color:white;
+}
 .social_links {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -35,8 +62,3 @@ footer img {
     justify-content: center;
 }
 
-.Info_links {
-    display: grid;
-    grid-template-rows: repeat(3, 1fr);
-    place-items: center;
-}

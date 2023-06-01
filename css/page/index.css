@@ -12,12 +12,37 @@
     height: 100%;
     width: 100%;
 }
-
+.text_box_left{
+    padding-top: 10%;
+}
 .text_box_left a {
     display: flex;
     justify-content: center;
 }
 .text_box_left h1 {
+    font-size: 50px;
     display: flex;
-    padding-left: 5%;
+    padding-left: 10%;
+}
+.Agent{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.Agent img {
+    display:flex;
+    margin-right: auto;
+    height: 100%;
+    width: 100%;
+}
+.text_box_right{
+    padding-top: 10%;
+}
+.text_box_right a {
+    display: flex;
+    justify-content: center;
+}
+.text_box_right h1 {
+    font-size: 50px;
+    display: flex;
+    padding-right: 10%;
 }

@@ -9,19 +9,22 @@ body{
 a, h1 {
     font-family: 'Bebas Neue', sans-serif;
 }
-.text_box_left{
+.text_box{
     display: grid;
-    grid-template-rows: 30% 70%;
+    grid-template-rows: 10% 20%;
 }
-.text_box_left h1{
+.text_box h1{
     color: #FF4350;
+    font-size: 50px;
     display: flex;
     align-items: center;
 }
-.text_box_left a{
+.text_box a{
     color: white;
-    font-size: 20px;
+    font-size: 24px;
     grid-row-start: 2;
     grid-row-end: 3;
 }
+
+
 

@@ -1,3 +1,11 @@
 .Welcome_container img{
     width: 100%;
 }
+.Mission{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.Mission img{
+    display: flex;
+    align-items: right;
+}

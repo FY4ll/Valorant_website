@@ -6,7 +6,20 @@ body{
     margin: 0%;
     background: #343434;
 }
-a {
+a, h1 {
     font-family: 'Bebas Neue', sans-serif;
+}
+.text_box_left{
+    display: grid;
+    grid-template-rows: 30% 70%;
+}
+.text_box_left h1{
+    color: #FF4350;
+    display: flex;
+    align-items: center;
+}
+.text_box_left a{
+    color: white;
+    font-size: 20px;
 }
 

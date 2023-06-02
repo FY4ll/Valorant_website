@@ -21,8 +21,35 @@
     <a class="active_blue" href="../Web/contact.html">CONTACT</a>
   </div>
 </header>
-<form>
-
-</form>
+  <form>
+    <label for="Prenom">Prénom</label><br>
+    <input type="text" id="Prenom" name="Prenom"><br>
+    <label for="Nom">Nom</label><br>
+    <input type="text" id="Nom" name="Nom"><br>
+    <label for="Email">Email</label><br>
+    <input type="email" id="Email" name="Email"><br>
+    <label for="Pnumber">numéro de téléphone</label><br>
+    <input type="number" id="Pnumber" name="Pnumer"><br>
+    <label for="Bdate">Date de naiscance</label><br>
+    <input type="date" id="Bdate" name="Bdate"><br>
+    <label for="mdp">Mot de passe</label><br>
+    <input type="password" id="mdp" name="mdp"><br>
+    <label for="url">Liens vers le probleme</label><br>
+    <input type="url" id="url" name="url"><br>
+    <label for="genre">Mot de passe</label><br>
+    <select name="genre" id="genre">
+      <option value="homme">homme</option>
+      <option value="femme">femme</option>
+      <option value="x">non-binaire</option>
+      <option value="autre">Autres</option>
+    </select><br>
+    <input type="radio" id="Visiteur" name="status_personne" value="Visiteur">
+    <label for="Visiteur">Visiteur</label><br>
+    <input type="radio" id="Formateur" name="status_personne" value="Formateur">
+    <label for="Formateur">Formateur</label><br>
+    <input type="radio" id="Tester" name="status_personne" value="Tester">
+    <label for="Tester">Tester</label>
+    <input type="submit" value="Envoyer">
+  </form>
 </body>
 </html>

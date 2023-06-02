@@ -44,7 +44,7 @@
     height: 200px; /* Hauteur de l'image */
 }
 
-#imortal {
+#iron {
     position: absolute;
     left: 0;
     animation: slideLeft 4s linear;

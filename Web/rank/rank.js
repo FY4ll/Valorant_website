@@ -2,7 +2,12 @@ let rankObj = [
     "iron",
     "bronze",
     "silver",
-
+    "gold",
+    "platinium",
+    "diamond",
+    "ascendant",
+    "immortal",
+    "radiant"
 ]
 document.querySelectorAll(".carousel").forEach((carousel) => {
     const items = carousel.querySelectorAll(".carousel__item");
@@ -69,6 +74,7 @@ document.querySelectorAll(".carousel").forEach((carousel) => {
 
     carousel.addEventListener("touchstart", (event) => {
         touchStartX = event.touches[0].clientX;
+
     });
 
     carousel.addEventListener("touchend", (event) => {
@@ -86,8 +92,14 @@ document.querySelectorAll(".carousel").forEach((carousel) => {
         }
     }
 });
-var myImage = document.getElementById('imortal');
+var myImage = document.getElementById(rankObj[0]);
 
 myImage.addEventListener('animationend', function() {
     myImage.style.animationFillMode = 'forwards';
 });
+var body = document.querySelector('body');
+
+// Fonction pour changer la couleur de l'arrière-plan du corps
+function changeBackgroundColor(color) {
+    body.style.backgroundColor = color;
+}

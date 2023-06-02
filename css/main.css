@@ -6,7 +6,7 @@ body{
     margin: 0;
     background: #343434;
 }
-a, h1, p {
+a, h1, p, label {
     font-family: 'Bebas Neue', sans-serif;
 }
 .text_box{

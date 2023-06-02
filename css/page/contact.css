@@ -1,0 +1,38 @@
+form {
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    width: 400px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    color: white;
+}
+
+input,
+select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+

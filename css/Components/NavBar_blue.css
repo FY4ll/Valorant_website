@@ -1,0 +1,37 @@
+header{
+    padding-top: 1%;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    width: auto;
+    height: 25%
+}
+.logo{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10%;
+    padding-left: 15%;
+}
+.navlink{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.navlink a{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.navlink a:hover{
+    color: #4356FF;
+}
+.navbutton{
+    color: white;
+    text-decoration: none;
+    text-decoration-color: white;
+}
+.active_blue{
+    color: #4356FF;
+    text-decoration: underline;
+    text-decoration-color: white;
+}

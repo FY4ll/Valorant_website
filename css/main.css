@@ -11,7 +11,7 @@ a, h1, p {
 }
 .text_box{
     display: grid;
-    grid-template-rows: 10% 20%;
+    grid-template-rows: 20% 20%;
 }
 .text_box h1{
     color: #FF4350;

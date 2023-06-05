@@ -1,8 +1,12 @@
-body{
+body {
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
+a, h1, p, label {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
 #carousel {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -36,33 +40,30 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: black;
+    color: white;
+    background-color: #343434;
+    padding: 20px;
     font-size: 24px;
     text-align: center;
-    margin: auto; /* Centre le texte horizontalement */
 }
 
-.gradient1 {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: -webkit-linear-gradient(top, white, gray); /* Safari, Chrome, Opera */
-    mix-blend-mode: multiply;
-}
-.gradient2 {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: -webkit-linear-gradient(top, white, saddlebrown); /* Safari, Chrome, Opera */
-    mix-blend-mode: multiply;
-}
+.gradient1,
+.gradient2,
 .gradient3 {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: -webkit-linear-gradient(top, white, darkgrey); /* Safari, Chrome, Opera */
     mix-blend-mode: multiply;
 }
 
+.gradient1 {
+    background: -webkit-linear-gradient(top, white, gray); /* Safari, Chrome, Opera */
+}
 
+.gradient2 {
+    background: -webkit-linear-gradient(top, white, saddlebrown); /* Safari, Chrome, Opera */
+}
 
+.gradient3 {
+    background: -webkit-linear-gradient(top, white, darkgrey); /* Safari, Chrome, Opera */
+}

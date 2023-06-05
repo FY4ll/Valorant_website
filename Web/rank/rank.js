@@ -3,7 +3,7 @@ const slides = carousel.querySelectorAll('.slide');
 let currentSlideIndex = 0; // Index de la deuxième image
 let touchStartX = 0;
 let touchEndX = 0;
-
+alert("Utiliser les flèche gauche ou droit pour aller d'avant ou arrière. Les utilisateur mobile swiper à gauche ou à droite");
 // Le reste du code reste inchangé
 // ...
 

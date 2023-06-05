@@ -6,8 +6,9 @@
 }
 
 .Play video {
-    height: 75%;
-    width: 75%;
+    transform: scale(0.8);
+    height: 100%;
+    width: 100%;
 }
 .text_box_left{
     padding-top: 10%;

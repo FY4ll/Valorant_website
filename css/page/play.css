@@ -21,3 +21,21 @@
     display: flex;
     padding-left: 10%;
 }
+.text_box_left a {
+    display: flex;
+    justify-content: center;
+}
+.text_box_left h1 {
+    font-size: 25px;
+    display: flex;
+    padding-left: 10%;
+}
+.text_box_right a {
+    display: flex;
+    justify-content: center;
+}
+.text_box_right h1 {
+    font-size: 25px;
+    display: flex;
+    padding-right: 10%;
+}

@@ -35,3 +35,72 @@ header{
     text-decoration: underline;
     text-decoration-color: white;
 }
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+@media screen and (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    li {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+    .navlink {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #343434;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+                0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .navlink.active {
+        left: 0;
+    }
+
+    .navbutton {
+        margin: 2.5rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        margin-top: 3%;
+        margin-left: auto;
+        margin-right: 5%;
+        cursor: pointer;
+    }
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+}
+

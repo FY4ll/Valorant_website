@@ -51,9 +51,10 @@ function handleGesture() {
 
 document.addEventListener('keydown', function (event) {
     if (event.key === 'ArrowLeft') {
-        prevSlide();
+        if (currentSlideIndex !== 0){prevSlide();}
     } else if (event.key === 'ArrowRight') {
-        nextSlide();
+        if (currentSlideIndex !== 8){nextSlide();}
+
     }
 });
 

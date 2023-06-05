@@ -13,8 +13,8 @@ header {
 }
 header a {
     color: #ffffff;
-    opacity: 0.5; /* Opacité semi-transparente au survol */
-    transition: opacity 0.3s; /* Transition fluide de l'opacité */
+    opacity: 0.5;
+    transition: opacity 0.3s;
 }
 
 header a:hover {

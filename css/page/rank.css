@@ -6,6 +6,34 @@ body {
 a, h1, p, label {
     font-family: 'Bebas Neue', sans-serif;
 }
+header {
+    margin-top: 5%;
+    z-index: 1;
+    align-items: end;
+}
+header a {
+    color: #ffffff;
+    opacity: 0.5; /* Opacité semi-transparente au survol */
+    transition: opacity 0.3s; /* Transition fluide de l'opacité */
+}
+
+header a:hover {
+    opacity: 1;
+}
+.navlink{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.navlink a{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
 
 #carousel {
     display: grid;

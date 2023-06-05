@@ -47,23 +47,39 @@ a, h1, p, label {
     text-align: center;
 }
 
-.gradient1,
-.gradient2,
-.gradient3 {
+.gradient {
     position: absolute;
     width: 100%;
     height: 100%;
     mix-blend-mode: multiply;
 }
 
-.gradient1 {
+.gradient_iron {
     background: -webkit-linear-gradient(top, white, gray); /* Safari, Chrome, Opera */
 }
 
-.gradient2 {
+.gradient_bronze {
     background: -webkit-linear-gradient(top, white, saddlebrown); /* Safari, Chrome, Opera */
 }
 
-.gradient3 {
+.gradient_silver {
     background: -webkit-linear-gradient(top, white, darkgrey); /* Safari, Chrome, Opera */
+}
+.gradient_gold {
+    background: -webkit-linear-gradient(top, white, #c8a150); /* Safari, Chrome, Opera */
+}
+.gradient_platinum {
+    background: -webkit-linear-gradient(top, white, #207682); /* Safari, Chrome, Opera */
+}
+.gradient_diamond {
+    background: -webkit-linear-gradient(top, white, #7d5aa0); /* Safari, Chrome, Opera */
+}
+.gradient_ascendant {
+    background: -webkit-linear-gradient(top, white, #8fb662); /* Safari, Chrome, Opera */
+}
+.gradient_immortal {
+    background: -webkit-linear-gradient(top, white, #5d1d19); /* Safari, Chrome, Opera */
+}
+.gradient_radiant {
+    background: -webkit-linear-gradient(top, white, #ffc400); /* Safari, Chrome, Opera */
 }

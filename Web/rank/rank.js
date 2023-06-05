@@ -19,6 +19,7 @@ function showSlide(index) {
     });
 }
 
+
 function nextSlide() {
     currentSlideIndex = (currentSlideIndex + 1) % slides.length;
     showSlide(currentSlideIndex);
@@ -28,6 +29,7 @@ function prevSlide() {
     currentSlideIndex = (currentSlideIndex - 1 + slides.length) % slides.length;
     showSlide(currentSlideIndex);
 }
+
 
 function handleTouchStart(event) {
     touchStartX = event.touches[0].clientX;
@@ -62,3 +64,4 @@ carousel.addEventListener('touchend', handleTouchEnd);
 clearInterval(carouselInterval);
 
 showSlide(currentSlideIndex);
+

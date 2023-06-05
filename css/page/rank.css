@@ -37,7 +37,6 @@ a, h1, p, label {
 }
 
 .caption {
-    display: flex;
     align-items: center;
     justify-content: center;
     color: white;
@@ -55,31 +54,60 @@ a, h1, p, label {
 }
 
 .gradient_iron {
-    background: -webkit-linear-gradient(top, white, gray); /* Safari, Chrome, Opera */
+    background: linear-gradient(to left, #a0a0a0, gray, #343434);
 }
 
 .gradient_bronze {
-    background: -webkit-linear-gradient(top, white, saddlebrown); /* Safari, Chrome, Opera */
+    background: linear-gradient(to left, #72302b, #5d1d19, #343434);
 }
 
 .gradient_silver {
-    background: -webkit-linear-gradient(top, white, darkgrey); /* Safari, Chrome, Opera */
+    background: linear-gradient(to left, #343434, darkgrey, #343434);
 }
+
 .gradient_gold {
-    background: -webkit-linear-gradient(top, white, #c8a150); /* Safari, Chrome, Opera */
+    background: linear-gradient(to left, #343434, #c8a150, #343434);
 }
+
 .gradient_platinum {
-    background: -webkit-linear-gradient(top, white, #207682); /* Safari, Chrome, Opera */
+    background: linear-gradient(to left, #343434, #207682, #343434);
 }
+
 .gradient_diamond {
-    background: -webkit-linear-gradient(top, white, #7d5aa0); /* Safari, Chrome, Opera */
+    background: linear-gradient(to left, #343434, #7d5aa0, #343434);
 }
+
 .gradient_ascendant {
-    background: -webkit-linear-gradient(top, white, #8fb662); /* Safari, Chrome, Opera */
+    background: linear-gradient(to left, #343434, #8fb662, #343434);
 }
+
 .gradient_immortal {
-    background: -webkit-linear-gradient(top, white, #5d1d19); /* Safari, Chrome, Opera */
+    background: linear-gradient(to left, #343434, #5d1d19, #343434);
 }
+
 .gradient_radiant {
-    background: -webkit-linear-gradient(top, white, #ffc400); /* Safari, Chrome, Opera */
+    background: linear-gradient(to left, #343434, #ffc400, #343434);
 }
+.slide img {
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.slide.active img {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.slide .caption {
+    transform: translateX(50%);
+    opacity: 0;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.slide.active .caption {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+

@@ -3,7 +3,8 @@ header{
     display: grid;
     grid-template-columns: 15% 85%;
     width: auto;
-    height: 25%
+    height: 25%;
+    z-index: 9999;
 }
 .logo{
     display: flex;
@@ -62,6 +63,7 @@ header{
         text-decoration: none;
     }
     .navlink {
+        z-index: 999;
         position: fixed;
         left: -100%;
         top: 5rem;

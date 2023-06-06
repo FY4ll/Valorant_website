@@ -51,16 +51,17 @@ td {
         line-height: 1.5;
     }
     h1{
-        font-size: 16px;
+        font-size: 32px;
     }
     caption h1 {
+        padding-top: 10%;
         text-align: center;
-        font-size: 16px;
+        font-size: 50px;
         color: #FF4350;
     }
     th img {
-        width: 50px;
-        height: 50px;
+        width: 100px;
+        height: 100px;
     }
 }
 

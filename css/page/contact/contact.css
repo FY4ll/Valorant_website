@@ -43,7 +43,7 @@ input[type="submit"]:hover {
     label {
         display: block;
         margin-top: 10px;
-        font-size: 18px;
+        font-size: 36px;
         color: white;
     }
 }

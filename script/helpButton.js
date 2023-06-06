@@ -3,9 +3,9 @@ function showMessage() {
     var messageText = document.getElementById('message-text');
 
     if (isMobileDevice()) {
-        messageText.textContent = "Swiper à gauche ou à droite pour changer les ranks";
+        messageText.textContent = "Swiper à gauche ou à droite pour changer les ranks (droit pour monter, gauche pour descendre)";
     } else {
-        messageText.textContent = "Utiliser les flèche gauche et droite pour changer les ranks";
+        messageText.textContent = "Utiliser les flèche gauche et droite pour changer les ranks (droit pour monter, gauche pour descendre)";
     }
 
     message.style.display = 'block';

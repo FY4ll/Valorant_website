@@ -194,7 +194,7 @@ header a:hover {
     background-color: #101010;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     * {
         margin: 0;
         padding: 0;

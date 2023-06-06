@@ -76,7 +76,7 @@
 .text-bouton a:hover{
     color: #FF4350;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .text_box_left a {
         display: flex;
         justify-content: center;

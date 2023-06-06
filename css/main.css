@@ -43,7 +43,7 @@ a, h1, p, label {
 .Welcome_container img{
     width: 100%;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .text_box h1{
         color: #FF4350;
         font-size: 25px;

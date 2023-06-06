@@ -22,7 +22,7 @@
     display: flex;
     padding-left: 10%;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .text_box_left h1 {
         font-size: 25px;
         display: flex;

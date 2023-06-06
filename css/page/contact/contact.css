@@ -39,7 +39,7 @@ input[type="submit"]:hover {
     padding-bottom: 10px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     label {
         display: block;
         margin-top: 10px;

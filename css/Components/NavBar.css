@@ -64,6 +64,18 @@ header{
     a {
         text-decoration: none;
     }
+    .logo img{
+        transform: scale(1.5);
+        padding-left: 30%;
+    }
+    header{
+        padding-top: 2%;
+        z-index: 9999;
+        display: grid;
+        grid-template-columns: 15% 85%;
+        width: auto;
+        height: 25%
+    }
     .navlink {
             z-index: 999;
             position: fixed;
@@ -78,7 +90,9 @@ header{
             box-shadow:
                     0 10px 27px rgba(0, 0, 0, 0.05);
         }
-
+    .navlink a{
+        font-size: 32px;
+    }
     .navlink.active {
             left: 0;
         }
@@ -88,8 +102,9 @@ header{
         }
 
     .hamburger {
-            display: block;
-            margin-top: 3%;
+        transform: scale(2);
+        display: block;
+        margin-top: 3%;
         margin-left: auto;
         margin-right: 5%;
             cursor: pointer;

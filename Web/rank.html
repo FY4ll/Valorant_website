@@ -3,26 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <title>Ranks</title>
-  <link rel="stylesheet" href="../../css/page/rank.css">
+  <link rel="stylesheet" href="../css/page/rank.css">
 </head>
 <body>
 <div id="carousel">
   <header>
     <div class="navlink">
-      <a class="navbutton" href="../../index.html">ACCUEIL</a>
-      <a class="navbutton" href="../play.html">JOUER</a>
-      <a class="navbutton" href="../agent.html">AGENT</a>
-      <a class="active_special" href="../rank/rank.html">RANK</a>
-      <a class="navbutton" href="../contact.html">CONTACT</a>
+      <a class="navbutton" href="../index.html">ACCUEIL</a>
+      <a class="navbutton" href="play.html">JOUER</a>
+      <a class="navbutton" href="agent.html">AGENT</a>
+      <a class="active_special" href="rank.html">RANK</a>
+      <a class="navbutton" href="contact.html">CONTACT</a>
     </div>
+
     <div class="hamburger">
       <span class="bar"></span>
       <span class="bar"></span>
       <span class="bar"></span>
     </div>
   </header>
+  <div id="question-mark" class="question-mark" onclick="showMessage()">?</div>
+  <div id="message" class="message">
+    <span id="close" onclick="hideMessage()">&times;</span>
+    <h2>Controls</h2>
+    <p id="message-text"></p>
+  </div>
   <div class="slide gradient gradient_iron">
-    <img src="../../pictures/valo_rank/iron.png" alt="Iron">
+    <img src="../pictures/valo_rank/iron.png" alt="Iron">
     <div class="caption">
       <h1>
         Fer
@@ -35,7 +42,7 @@
     </div>
   </div>
   <div class="slide gradient gradient_bronze">
-    <img src="../../pictures/valo_rank/bronze.png" alt="bronze">
+    <img src="../pictures/valo_rank/bronze.png" alt="bronze">
     <div class="caption">
       <h1>
         Bronze
@@ -48,7 +55,7 @@
     </div>
   </div>
   <div class="slide gradient gradient_silver">
-    <img src="../../pictures/valo_rank/silver.png" alt="silver">
+    <img src="../pictures/valo_rank/silver.png" alt="silver">
     <div class="caption">
       <h1>
         Argent
@@ -61,7 +68,7 @@
     </div>
   </div>
   <div class="slide gradient gradient_gold">
-    <img src="../../pictures/valo_rank/gold.png" alt="gold">
+    <img src="../pictures/valo_rank/gold.png" alt="gold">
     <div class="caption">
       <h1>
         or
@@ -75,7 +82,7 @@
     </div>
   </div>
   <div class="slide gradient gradient_platinum">
-    <img src="../../pictures/valo_rank/platinium.png" alt="platinium">
+    <img src="../pictures/valo_rank/platinium.png" alt="platinium">
     <div class="caption">
       <h1>
         Platine
@@ -87,7 +94,7 @@
     </div>
   </div>
   <div class="slide gradient gradient_diamond">
-    <img src="../../pictures/valo_rank/diamond.png" alt="diamond">
+    <img src="../pictures/valo_rank/diamond.png" alt="diamond">
     <div class="caption">
       <h1>
         diamand
@@ -99,7 +106,7 @@
     </div>
   </div>
   <div class="slide gradient gradient_ascendant">
-    <img src="../../pictures/valo_rank/ascendant.png" alt="ascendant">
+    <img src="../pictures/valo_rank/ascendant.png" alt="ascendant">
     <div class="caption">
       <h1>
         ascendant
@@ -110,7 +117,7 @@
     </div>
   </div>
   <div class="slide gradient gradient_immortal">
-    <img src="../../pictures/valo_rank/immortal.png" alt="immortal">
+    <img src="../pictures/valo_rank/immortal.png" alt="immortal">
     <div class="caption">
       <h1>
         IMMORTEL
@@ -122,7 +129,7 @@
     </div>
   </div>
   <div class="slide gradient gradient_radiant">
-    <img src="../../pictures/valo_rank/radiant.png" alt="RADIANT">
+    <img src="../pictures/valo_rank/radiant.png" alt="RADIANT">
     <div class="caption">
       <h1>
         RADIANT
@@ -136,7 +143,9 @@
     </div>
   </div>
 </div>
-<script src="rank.js"></script>
-<script src="../../css/Components/Navbar.js"></script>
+<script src="../script/rank.js"></script>
+<script src="../script/Navbar.js"></script>
+<script src="../script/helpButton.js"></script>
+
 </body>
 </html>

@@ -33,7 +33,61 @@ header a:hover {
     justify-content: center;
 
 }
+.question-mark {
+    z-index: 1;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+    animation: pulse 2s infinite;
+}
 
+.message {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.message h2 {
+    margin-top: 0;
+}
+
+.message p {
+    margin-bottom: 0;
+}
+
+#close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
 
 #carousel {
     display: grid;

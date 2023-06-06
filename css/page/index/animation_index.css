@@ -32,6 +32,7 @@
 .Mission,
 .Agent {
     opacity: 0;
+    z-index: 1;
 }
 
 /* Ajoutez une classe "fadeInScroll" aux éléments qui doivent apparaître lors du défilement */

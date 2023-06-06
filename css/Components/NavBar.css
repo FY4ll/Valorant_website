@@ -1,5 +1,6 @@
 header{
     padding-top: 1%;
+    z-index: 9999;
     display: grid;
     grid-template-columns: 15% 85%;
     width: auto;
@@ -40,6 +41,7 @@ header{
 }
 
 .bar {
+    z-index: 9999;
     display: block;
     width: 25px;
     height: 3px;
@@ -49,7 +51,7 @@ header{
     background-color: #101010;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     * {
         margin: 0;
         padding: 0;
@@ -63,6 +65,7 @@ header{
         text-decoration: none;
     }
     .navlink {
+            z-index: 999;
             position: fixed;
             left: -100%;
             top: 5rem;

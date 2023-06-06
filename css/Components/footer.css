@@ -61,7 +61,7 @@ footer img {
     align-items: center;
     justify-content: center;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     footer{
         padding-top: 2%;
     }

@@ -48,7 +48,7 @@ header{
     transition: all 0.3s ease-in-out;
     background-color: #101010;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     * {
         margin: 0;
         padding: 0;

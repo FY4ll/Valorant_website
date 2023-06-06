@@ -1,0 +1,17 @@
+/* Faites apparaître les éléments avec un fondu au chargement */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Appliquez l'animation de fondu aux éléments souhaités */
+form, .fadeIn img {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+/* Faites apparaître les éléments progressivement lors du défilement */

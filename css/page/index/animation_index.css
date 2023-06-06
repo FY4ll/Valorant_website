@@ -1,0 +1,49 @@
+/* Faites apparaître les éléments avec un fondu au chargement */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Appliquez l'animation de fondu aux éléments souhaités */
+.Welcome_container img,
+.Mission,
+.Agent {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+/* Faites apparaître les éléments progressivement lors du défilement */
+@keyframes fadeInScroll {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Appliquez l'animation de fondu lors du défilement aux éléments souhaités */
+.Mission,
+.Agent {
+    opacity: 0;
+}
+
+/* Ajoutez une classe "fadeInScroll" aux éléments qui doivent apparaître lors du défilement */
+.fadeInScroll {
+    animation: fadeInScroll 1s ease-in-out forwards;
+}
+
+/* Ajoutez un délai à l'animation de fondu lors du défilement pour chaque élément */
+.Mission {
+    animation-delay: 0.2s;
+}
+
+.Agent {
+    animation-delay: 0.4s;
+}

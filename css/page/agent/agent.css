@@ -1,68 +1,68 @@
 .text_box{
-    padding-left: 10%;
+    padding-left: 10%; /* Ajoute un espace de remplissage de 10% à gauche du contenu de .text_box */
 }
+
 table {
-    width: 100%;
-    border-collapse: collapse;
-    display: grid;
-    grid-template-columns:auto;
-    grid-gap: 20px;
-    justify-items: center;
-    align-items: center;
+    width: 100%; /* Définit la largeur de la table à 100% de son conteneur */
+    border-collapse: collapse; /* Fusionne les bordures des cellules de la table */
+    display: grid; /* Affiche la table en tant que grille */
+    grid-template-columns:auto; /* Définit une seule colonne de largeur automatique pour la grille */
+    grid-gap: 20px; /* Ajoute un espace de 20 pixels entre les éléments de la grille */
+    justify-items: center; /* Centre horizontalement les éléments de la grille */
+    align-items: center; /* Centre verticalement les éléments de la grille */
 }
 
 th, td {
-    padding: 10px;
-    text-align: center;
+    padding: 10px; /* Ajoute un espace de remplissage de 10 pixels à l'intérieur des cellules de la table */
+    text-align: center; /* Centre le texte horizontalement dans les cellules de la table */
 }
 
 th {
-    color: white;
+    color: white; /* Définit la couleur du texte des en-têtes de colonne en blanc */
 }
 
 th img {
-    width: 100px;
-    height: 100px;
+    width: 100px; /* Définit la largeur des images dans les en-têtes de colonne à 100 pixels */
+    height: 100px; /* Définit la hauteur des images dans les en-têtes de colonne à 100 pixels */
 }
 
 caption h1 {
-    text-align: center;
-    font-size: 32px;
-    color: #FF4350;
+    text-align: center; /* Centre le texte de l'en-tête de la table horizontalement */
+    font-size: 32px; /* Définit la taille de police de l'en-tête de la table à 32 pixels */
+    color: #FF4350; /* Définit la couleur du texte de l'en-tête de la table en #FF4350 (rouge) */
 }
 
 h1 {
-    color: white;
+    color: white; /* Définit la couleur du texte des titres h1 en blanc */
 }
 
 p {
-    font-size: 24px;
-    color: white;
-    line-height: 1.5;
+    font-size: 24px; /* Définit la taille de police des paragraphes à 24 pixels */
+    color: white; /* Définit la couleur du texte des paragraphes en blanc */
+    line-height: 1.5; /* Définit la hauteur de ligne des paragraphes à 1.5 (espacement entre les lignes) */
 }
 
 td {
-    background-color: #222222;
+    background-color: #222222; /* Définit la couleur de fond des cellules de données en #222222 (gris foncé) */
 }
+
 @media screen and (max-width: 1023px) {
     p {
-        font-size: 12px;
-        color: white;
-        line-height: 1.5;
+        font-size: 12px; /* Définit la taille de police des paragraphes à 12 pixels pour les écrans de largeur maximale de 1023 pixels */
+        color: white; /* Définit la couleur du texte des paragraphes en blanc pour les écrans de largeur maximale de 1023 pixels */
+        line-height: 1.5; /* Définit la hauteur de ligne des paragraphes à 1.5 (espacement entre les lignes) pour les écrans de largeur maximale de 1023 pixels */
     }
     h1{
-        font-size: 32px;
+        font-size: 32px; /* Définit la taille de police des titres h1 à 32 pixels pour les écrans de largeur maximale de 1023 pixels */
     }
     caption h1 {
-        padding-top: 10%;
-        text-align: center;
-        font-size: 50px;
-        color: #FF4350;
+        padding-top: 10%; /* Ajoute un espace de remplissage supérieur de 10% à l'en-tête de la table pour les écrans de largeur maximale de 1023 pixels */
+        text-align: center; /* Centre le texte de l'en-tête de la table horizontalement pour les écrans de largeur maximale de 1023 pixels */
+        font-size: 50px; /* Définit la taille de police de l'en-tête de la table à 50 pixels pour les écrans de largeur maximale de 1023 pixels */
+        color: #FF4350; /* Définit la couleur du texte de l'en-tête de la table en #FF4350 (rouge) pour les écrans de largeur maximale de 1023 pixels */
     }
     th img {
-        width: 100px;
-        height: 100px;
+        width: 100px; /* Définit la largeur des images dans les en-têtes de colonne à 100 pixels pour les écrans de largeur maximale de 1023 pixels */
+        height: 100px; /* Définit la hauteur des images dans les en-têtes de colonne à 100 pixels pour les écrans de largeur maximale de 1023 pixels */
     }
 }
-
-

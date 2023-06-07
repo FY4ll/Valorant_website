@@ -1,155 +1,224 @@
+/* 
+style pour les grands écrans
+*/
+
+/* Style pour la boîte de dialogue */
 .popup {
-    display: none;
-    position: fixed;
-    z-index: 9999;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #FF4350;
-    padding: 30px;
+    display: none; /* Masque la boîte de dialogue par défaut */
+    position: fixed; /* Position fixe pour rester en place lors du défilement */
+    z-index: 9999; /* Indice de profondeur pour s'assurer que la boîte de dialogue est au premier plan */
+    top: 50%; /* Position verticale au milieu de l'écran */
+    left: 50%; /* Position horizontale au milieu de l'écran */
+    transform: translate(-50%, -50%); /* Décale la boîte de dialogue de moitié de sa largeur et de sa hauteur pour la centrer */
+    background-color: #FF4350; /* Couleur de fond de la boîte de dialogue */
+    padding: 30px; /* Espacement interne pour le contenu de la boîte de dialogue */
 }
 
+/* Style pour le titre h2 à l'intérieur de la boîte de dialogue */
 .popup h2 {
-    margin-top: 0;
-    color: white;
+    margin-top: 0; /* Supprime la marge supérieure du titre */
+    color: white; /* Couleur du texte du titre */
 }
 
+/* Style pour les paragraphes p à l'intérieur de la boîte de dialogue */
 .popup p {
-    color: white;
-    margin-bottom: 0;
+    color: white; /* Couleur du texte des paragraphes */
+    margin-bottom: 0; /* Supprime la marge inférieure des paragraphes */
 }
 
+/* Style pour l'élément avec l'ID #close */
 #close {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    cursor: pointer;
-}
-.Mission{
-    display: grid;
-    grid-template-columns: 50% 50%;
+    position: absolute; /* Position absolue pour le placer de manière précise */
+    top: 10px; /* Position verticale à 10 pixels du haut */
+    right: 10px; /* Position horizontale à 10 pixels de la droite */
+    cursor: pointer; /* Curseur de souris en forme de pointeur pour indiquer que l'élément est cliquable */
 }
 
+/* Style pour la section Mission */
+.Mission {
+    display: grid; /* Utilise un système de grille pour positionner les éléments */
+    grid-template-columns: 50% 50%; /* Divise la section en deux colonnes égales */
+}
+
+/* Style pour les images à l'intérieur de la section Mission */
 .Mission img {
-    display:flex;
-    margin-left: auto;
-    height: 100%;
-    width: 100%;
+    display: flex; /* Utilise un conteneur flex pour centrer l'image horizontalement */
+    margin-left: auto; /* Marge à gauche automatique pour centrer l'image */
+    height: 100%; /* Hauteur de l'image à 100% de son conteneur */
+    width: 100%; /* Largeur de l'image à 100% de son conteneur */
 }
-.text_box_left{
-    padding-top: 10%;
+
+/* Style pour la boîte de texte à gauche de la section Mission */
+.text_box_left {
+    padding-top: 10%; /* Espacement en haut de la boîte de texte */
 }
+
+/* Style pour les liens à l'intérieur de la boîte de texte à gauche de la section Mission */
 .text_box_left a {
-    display: flex;
-    justify-content: center;
+    display: flex; /* Utilise un conteneur flex pour centrer le lien horizontalement */
+    justify-content: center; /* Centre le contenu du lien horizontalement */
 }
+
+/* Style pour le titre h1 à l'intérieur de la boîte de texte à gauche de la section Mission */
 .text_box_left h1 {
-    font-size: 50px;
-    display: flex;
-    padding-left: 10%;
+    font-size: 50px; /* Taille de police de 50 pixels pour le titre */
+    display: flex; /* Utilise un conteneur flex pour centrer le titre horizontalement */
+    padding-left: 10%; /* Espacement à gauche du titre */
 }
-.Agent{
-    display: grid;
-    grid-template-columns: 50% 50%;
+
+/* Style pour la section Agent */
+.Agent {
+    display: grid; /* Utilise un système de grille pour positionner les éléments */
+    grid-template-columns: 50% 50%; /* Divise la section en deux colonnes égales */
 }
+
+/* Style pour les images à l'intérieur de la section Agent */
 .Agent img {
-    display:flex;
-    margin-right: auto;
-    height: 100%;
-    width: 100%;
+    display: flex; /* Utilise un conteneur flex pour centrer l'image horizontalement */
+    margin-right: auto; /* Marge à droite automatique pour centrer l'image */
+    height: 100%; /* Hauteur de l'image à 100% de son conteneur */
+    width: 100%; /* Largeur de l'image à 100% de son conteneur */
 }
-.text_box_right{
-    padding-top: 10%;
+
+/* Style pour la boîte de texte à droite de la section Agent */
+.text_box_right {
+    padding-top: 10%; /* Espacement en haut de la boîte de texte */
 }
+
+/* Style pour les liens à l'intérieur de la boîte de texte à droite de la section Agent */
 .text_box_right a {
-    display: flex;
-    justify-content: center;
+    display: flex; /* Utilise un conteneur flex pour centrer le lien horizontalement */
+    justify-content: center; /* Centre le contenu du lien horizontalement */
 }
+
+/* Style pour le titre h1 à l'intérieur de la boîte de texte à droite de la section Agent */
 .text_box_right h1 {
-    font-size: 50px;
-    display: flex;
-    padding-right: 10%;
+    font-size: 50px; /* Taille de police de 50 pixels pour le titre */
+    display: flex; /* Utilise un conteneur flex pour centrer le titre horizontalement */
+    padding-right: 10%; /* Espacement à droite du titre */
 }
-.text-bouton a{
-    text-decoration: none;
+
+/* Style pour les liens à l'intérieur de .text-bouton */
+.text-bouton a {
+    text-decoration: none; /* Supprime la décoration de texte des liens */
 }
-.text-bouton a:hover{
-    color: #FF4350;
+
+/* Style au survol des liens à l'intérieur de .text-bouton */
+.text-bouton a:hover {
+    color: #FF4350; /* Change la couleur du texte des liens au survol */
 }
+
+/* 
+style pour le mobile
+*/
+
 @media screen and (max-width: 1023px) {
+    /* Styles spécifiques aux écrans mobiles */
+
+    /* Style pour les liens à l'intérieur de la boîte de texte à gauche pour les écrans mobiles */
     .text_box_left a {
         display: flex;
         justify-content: center;
         padding-left: 10%;
     }
+
+    /* Style pour les titres à l'intérieur de la boîte de texte à gauche pour les écrans mobiles */
     .text_box_left h1 {
         font-size: 50px;
         display: flex;
         padding-left: 10%;
     }
+
+    /* Style pour les liens à l'intérieur de la boîte de texte à droite pour les écrans mobiles */
     .text_box_right a {
         display: flex;
         justify-content: center;
     }
+
+    /* Style pour les titres à l'intérieur de la boîte de texte à droite pour les écrans mobiles */
     .text_box_right h1 {
         font-size: 50px;
         display: flex;
         padding-right: 10%;
     }
-    .Mission{
+
+    /* Style pour la section Mission pour les écrans mobiles */
+    .Mission {
         display: grid;
-        grid-template-rows: repeat(2,1fr);
+        grid-template-rows: repeat(2, 1fr);
     }
+
+    /* Style pour les images à l'intérieur de la section Mission pour les écrans mobiles */
     .Mission img {
         grid-column-start: 2;
         grid-column-end: 3;
         grid-row-start: 2;
         grid-row-end: 3;
-        display:flex;
+        display: flex;
     }
-    .text_box_left{
+
+    /* Style pour la boîte de texte à gauche de la section Mission pour les écrans mobiles */
+    .text_box_left {
         grid-column-start: 1;
         grid-column-end: 3;
         padding-top: 10%;
     }
+
+    /* Style pour les liens à l'intérieur de la boîte de texte à gauche de la section Mission pour les écrans mobiles */
     .text_box_left a {
         display: flex;
         justify-content: center;
     }
+
+    /* Style pour les titres à l'intérieur de la boîte de texte à gauche de la section Mission pour les écrans mobiles */
     .text_box_left h1 {
         font-size: 50px;
         display: flex;
         padding-left: 10%;
     }
-    .text-bouton a{
+
+    /* Style pour les liens à l'intérieur de .text-bouton pour les écrans mobiles */
+    .text-bouton a {
         margin-right: 10%;
     }
-    .Agent{
+
+    /* Style pour la section Agent pour les écrans mobiles */
+    .Agent {
         display: grid;
-        grid-template-rows: repeat(2,1fr);
+        grid-template-rows: repeat(2, 1fr);
     }
+
+    /* Style pour les images à l'intérieur de la section Agent pour les écrans mobiles */
     .Agent img {
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 2;
         grid-row-end: 3;
-        display:flex;
+        display: flex;
     }
-    .text_box_right{
+
+    /* Style pour la boîte de texte à droite de la section Agent pour les écrans mobiles */
+    .text_box_right {
         grid-column-start: 1;
         grid-column-end: 3;
         padding-top: 10%;
     }
+
+    /* Style pour les liens à l'intérieur de la boîte de texte à droite de la section Agent pour les écrans mobiles */
     .text_box_right a {
         display: flex;
         justify-content: center;
     }
+
+    /* Style pour les titres à l'intérieur de la boîte de texte à droite de la section Agent pour les écrans mobiles */
     .text_box_right h1 {
         font-size: 50px;
         display: flex;
         padding-left: 10%;
     }
+
+    /* Style pour la flèche pour les écrans mobiles */
     .arrow {
-        transform: scale(0.3);
+        transform: scale(0.3); /* Réduit la taille de la flèche à 30% de sa taille d'origine */
     }
 }

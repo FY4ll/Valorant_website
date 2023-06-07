@@ -1,28 +1,41 @@
+/* Importe la police "Bebas Neue" depuis Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-body{
+
+/* Applique des styles de base au corps de la page */
+body {
     padding: 0;
     margin: 0;
     background: #343434;
 }
+
+/* Applique la police "Bebas Neue" à certains éléments de texte */
 a, h1, p, label {
     font-family: 'Bebas Neue', sans-serif;
 }
-.text_box{
+
+/* Applique des styles à la boîte de texte */
+.text_box {
     display: grid;
     grid-template-rows: auto;
 }
-.text_box h1{
+
+/* Applique des styles au titre de la boîte de texte */
+.text_box h1 {
     color: #FF4350;
     font-size: 50px;
     display: flex;
     align-items: center;
 }
-.text_box a{
+
+/* Applique des styles au lien dans la boîte de texte */
+.text_box a {
     color: white;
     font-size: 28px;
     grid-row-start: 2;
     grid-row-end: 3;
 }
+
+/* Applique des styles au conteneur de bouton */
 .bouton {
     display: flex;
     flex-direction: column;
@@ -30,6 +43,7 @@ a, h1, p, label {
     grid-column-end: 2;
 }
 
+/* Applique des styles au texte du bouton */
 .bouton .text-bouton {
     display: flex;
     justify-content: center;
@@ -37,20 +51,28 @@ a, h1, p, label {
     color: white;
 }
 
+/* Applique des styles à la flèche du bouton */
 .bouton .arrow {
     transform: scale(0.3);
 }
-.Welcome_container img{
+
+/* Applique des styles à l'image du conteneur de bienvenue */
+.Welcome_container img {
     width: 100%;
 }
+
+/* Styles pour les écrans de largeur maximale de 1023 pixels */
 @media screen and (max-width: 1023px) {
-    .text_box h1{
+    /* Styles pour le titre de la boîte de texte */
+    .text_box h1 {
         color: #FF4350;
         font-size: 50px;
         display: flex;
         align-items: center;
     }
-    .text_box a{
+
+    /* Styles pour le lien dans la boîte de texte */
+    .text_box a {
         color: white;
         font-size: 20px;
         grid-row-start: 2;

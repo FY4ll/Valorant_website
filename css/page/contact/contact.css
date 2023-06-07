@@ -1,49 +1,37 @@
 form {
-    margin: 0 auto;
-    text-align: center;
-    padding: 10%;
-    border-radius: 5px;
-    width: 400px;
+    margin: 0 auto; /* Centre le formulaire horizontalement */
+    text-align: center; /* Centre le contenu du formulaire horizontalement */
+    padding: 10%; /* Ajoute un espace de remplissage de 10% à l'intérieur du formulaire */
+    border-radius: 5px; /* Ajoute un rayon de bordure de 5 pixels pour arrondir les coins du formulaire */
+    width: 400px; /* Définit une largeur fixe de 400 pixels pour le formulaire */
 }
 
 label {
-    display: block;
-    margin-top: 10px;
-    font-size: 18px;
-    color: white;
+    display: block; /* Affiche les labels en tant que blocs */
+    margin-top: 10px; /* Ajoute une marge supérieure de 10 pixels pour espacer les labels des éléments précédents */
+    font-size: 18px; /* Définit la taille de police des labels à 18 pixels */
+    color: white; /* Définit la couleur du texte des labels en blanc */
 }
 
 input,
 select {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
+    display: block; /* Affiche les éléments en tant que blocs */
+    width: 100%; /* Définit la largeur des éléments à 100% de leur conteneur */
+    padding: 10px; /* Ajoute un espace de remplissage de 10 pixels à l'intérieur des éléments */
+    margin-top: 5px; /* Ajoute une marge supérieure de 5 pixels pour espacer les éléments des éléments précédents */
+    border-radius: 5px; /* Ajoute un rayon de bordure de 5 pixels pour arrondir les coins des éléments */
+    border: 1px solid #ccc; /* Ajoute une bordure solide de 1 pixel avec une couleur grise claire aux éléments */
 }
+
 input[type="submit"] {
-    background-color: #333;
-    color: #fff;
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
+    background-color: #333; /* Définit la couleur de fond du bouton d'envoi */
+    color: #fff; /* Définit la couleur du texte du bouton d'envoi */
+    cursor: pointer; /* Définit le curseur de la souris comme un pointeur */
+    transition: background-color 0.3s, color 0.3s; /* Ajoute une transition de 0.3 seconde pour l'animation des couleurs au survol */
 }
 
 input[type="submit"]:hover {
-    background-color: white;
-    color: black;
-    cursor: pointer;
-}
-#Champs_text{
-    height: 50px;
-    padding-bottom: 10px;
-}
-
-@media screen and (max-width: 1023px) {
-    label {
-        display: block;
-        margin-top: 10px;
-        font-size: 36px;
-        color: white;
-    }
+    background-color: white; /* Définit la couleur de fond du bouton d'envoi au survol */
+    color: black; /* Définit la couleur du texte du bouton d'envoi au survol */
+    cursor: pointer; /* Définit le curseur de la souris comme un pointeur */
 }

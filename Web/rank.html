@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+   <!-- encodage des caractères-->
   <meta charset="UTF-8">
+   <!-- titre de la page-->
   <title>Ranks</title>
+  <!--Liens pour les différents style de la page-->
   <link rel="stylesheet" href="../css/page/rank.css">
 </head>
+<!-- fonction pour faire apparètre le popup de controlle du carouselle (voir script/popup.js)-->
 <body onload="showMessage()">
+<!-- div qui envelope toute la page pour permettre au degrader en backgrouds de biens changer partout-->
 <div id="carousel">
+  <!-- navbar -->
   <header>
+    <!-- liens vers d'autre page du site -->
     <div class="navlink">
       <a class="navbutton" href="../index.html">ACCUEIL</a>
       <a class="navbutton" href="play.html">JOUER</a>
@@ -15,18 +22,20 @@
       <a class="active_special" href="rank.html">RANK</a>
       <a class="navbutton" href="contact.html">CONTACT</a>
     </div>
-
+    <!--Navbar mobile-->
     <div class="hamburger">
       <span class="bar"></span>
       <span class="bar"></span>
       <span class="bar"></span>
     </div>
   </header>
+  <!--  POPUP d'un message qui explique les controlles du carouselle-->
   <div id="message" class="message">
     <span id="close" onclick="hideMessage()">&times;</span>
     <h2>Controls</h2>
     <p id="message-text"></p>
   </div>
+  <!-- description des différents rank et leurs style a afficher-->
   <div class="slide gradient gradient_iron">
     <img src="../pictures/valo_rank/iron.png" alt="Iron">
     <div class="caption">
@@ -142,6 +151,7 @@
     </div>
   </div>
 </div>
+<!-- les différents script à utiliser dans cette page-->
 <script src="../script/rank.js"></script>
 <script src="../script/Navbar.js"></script>
 <script src="../script/helpButton.js"></script>

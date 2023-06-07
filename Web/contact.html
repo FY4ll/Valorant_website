@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!--encodage des caractères-->
   <meta charset="UTF-8">
+  <!-- Titre de la page-->
   <title>Agent</title>
+  <!-- liens vers les différents css de la page-->
   <link rel="stylesheet" href="../css/Components/NavBar_blue.css">
   <link rel="stylesheet" href="../css/main.css">
   <link rel="stylesheet" href="../css/page/contact/contact.css">
@@ -10,10 +13,13 @@
   <link rel="stylesheet" href="../css/Components/footer.css">
 </head>
 <body>
+  <!-- navbar bleue qui permets d'ancentuer le thème de l'informatique -->
 <header>
+  <!--logo-->
   <div class="logo">
     <img src="../pictures/Brand_logo/Valorant_blue_logo.svg" alt="Valorant logo">
   </div>
+  <!-- boutton de liens vers les autres pages du site -->
   <div class="navlink">
     <a class="navbutton" href="../index.html">ACCUEIL</a>
     <a class="navbutton" href="../Web/play.html">JOUER</a>
@@ -21,12 +27,14 @@
     <a class="navbutton" href="rank.html">RANK</a>
     <a class="active_blue" href="../Web/contact.html">CONTACT</a>
   </div>
+  <!-- navbar mobile -->
     <div class="hamburger">
         <span class="bar"></span>
         <span class="bar"></span>
         <span class="bar"></span>
     </div>
 </header>
+<!--formulaire de contacte-->
   <form class="fadeIn">
       <label for="Prenom">Prénom</label><br>
       <input type="text" id="Prenom" name="Prenom"><br>
@@ -51,35 +59,37 @@
     </select><br>
       <label for="Visiteur">Visiteur</label><br>
     <input type="radio" id="Visiteur" name="status_personne" value="Visiteur">
-
       <label for="Formateur">Formateur</label><br>
     <input type="radio" id="Formateur" name="status_personne" value="Formateur">
-
       <label for="Tester">Tester</label> <br>
     <input type="radio" id="Tester" name="status_personne" value="Tester">
-
       <label for="Donne">J'accepte que mes donné sois utiliser a des fin d'analyse</label> <br>
       <input type="checkbox" id="Donne" name="Donne" value="Donne">
       <label for="Champs_text">commentaire</label> <br>
       <input type="text" id="Champs_text" name="Champs_text">
+      <!-- boutton de sumbit qui renvoie vers index.html -->
       <input type="submit" value="Envoyer" formaction="../index.html">
-
   </form>
+<!--pieds de page-->
 <footer>
-    <div class="Info_links">
-        <a href="/Web/Admin/copyright.html">CopyRight</a>
-        <a href="/Web/Admin/CGU.html">Condition générale d'utilisation</a>
-        <a href="contact.html">Contact</a>
-        <a href="mailto:fadyallemann@gmail.com">Contactez le webmaster</a>
-    </div>
-    <div class="Github">
-        <p>Ce site à été crée par<a href="https://github.com/FY4ll">@FY4LL<img src="../pictures/Brand_logo/GITHUB.png" alt="GITHUB link Image"></a></p>
-    </div>
-    <div class="social_links">
-        <a href="https://discord.gg/valorant"><img src="../pictures/Brand_logo/DISCORD.png" alt="Discord link image"></a>
-        <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiX6e70_q3_AhXQg_0HHekXBYAQ6F56BAgJEAE&url=https%3A%2F%2Ftwitter.com%2FPlayVALORANT%3Fref_src%3Dtwsrc%255Egoogle%257Ctwcamp%255Eserp%257Ctwgr%255Eauthor&usg=AOvVaw0u5KY4PHGMD6aJp73rz0kW"><img src="../pictures/Brand_logo/Twitter.png" alt="twitter link image"></a>
-    </div>
+  <!-- liens vers les pages administratif et contacte-->
+  <div class="Info_links">
+      <a href="/Web/Admin/copyright.html">CopyRight</a>
+      <a href="/Web/Admin/CGU.html">Condition générale d'utilisation</a>
+      <a href="Web/contact.html">Contact</a>
+      <a href="mailto:fadyallemann@gmail.com">Contactez le webmaster</a>
+  </div>
+  <!-- boutton de publicité du developeur-->
+  <div class="Github">
+      <p>Ce site à été crée par<a href="https://github.com/FY4ll">@FY4LL<img src="pictures/Brand_logo/GITHUB.png" alt="GITHUB link Image"></a></p>
+  </div>
+  <!-- boutton d'envoie sur les différents réseaux du jeux-->
+  <div class="social_links">
+      <a href="https://discord.gg/valorant"><img src="pictures/Brand_logo/DISCORD.png" alt="Discord link image"></a>
+      <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiX6e70_q3_AhXQg_0HHekXBYAQ6F56BAgJEAE&url=https%3A%2F%2Ftwitter.com%2FPlayVALORANT%3Fref_src%3Dtwsrc%255Egoogle%257Ctwcamp%255Eserp%257Ctwgr%255Eauthor&usg=AOvVaw0u5KY4PHGMD6aJp73rz0kW"><img src="pictures/Brand_logo/Twitter.png" alt="twitter link image"></a>
+  </div>
 </footer>
+<!-- scripte pour rendre la navbar mobile-->
 <script src="../script/Navbar.js"></script>
 </body>
 </html>

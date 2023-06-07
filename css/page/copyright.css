@@ -1,0 +1,13 @@
+
+img {
+    height: 250px;
+    width: 250px;
+}
+article{
+    display: grid;
+    grid-template-rows: auto;
+}
+h1, h2, a, p{
+    text-decoration: none;
+    color: white;
+}
